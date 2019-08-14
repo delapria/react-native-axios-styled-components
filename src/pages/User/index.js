@@ -3,6 +3,7 @@ import { View } from 'react-native';
 
 // import { Container } from './styles';
 
-export default function Main() {
+export default function User({ navigation }) {
+  navigation.getParam('user');
   return <View />;
 }
